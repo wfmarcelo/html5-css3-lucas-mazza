@@ -1,4 +1,9 @@
 {
+  "name": "estudo-html-css-mazza",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "browser-sync start --server 'src' --files 'src/*.html, src/css/*.css'"
+  },
   "dependencies": {
     "jquery": "^3.7.1",
     "normalize.css": "^8.0.1",
