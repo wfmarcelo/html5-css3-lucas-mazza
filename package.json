@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "normalize.css": "^8.0.1",
+    "prefixfree": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
