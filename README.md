@@ -1,7 +1,7 @@
 # HTML5 e CSS3: Domine a web do futuro
 
 <p align="center">
-  <img src="./capa-livro.jpg" alt="Capa do Livro HTML5 e CSS3" width="300">
+  <img src="./capa-livro.png" alt="Capa do Livro HTML5 e CSS3" width="300">
 </p>
 
 Este repositório contém o código desenvolvido durante a leitura do livro **"HTML5 e CSS3: Domine a web do futuro"**, escrito por Lucas Mazza e publicado pela Editora Casa do Código.
