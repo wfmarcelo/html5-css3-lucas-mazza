@@ -2,7 +2,7 @@
   "name": "estudo-html-css-mazza",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browser-sync start --server 'src' --files 'src/*.html, src/css/*.css'"
+    "dev": "browser-sync start --server 'src' --files '**/*' --no-cache"
   },
   "dependencies": {
     "jquery": "^3.7.1",
