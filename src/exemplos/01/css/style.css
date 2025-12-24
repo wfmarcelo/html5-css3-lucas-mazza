@@ -1,5 +1,5 @@
 body {
-    background: #FFF1D6 url(images/noise.png);
+    background: #FFF1D6 url(../images/noise.png);
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1.6;
     
@@ -36,5 +36,16 @@ h1 a:hover {
 .place a {
     color: #2C88A7;
     font-weight: bold;
+}
+
+.place img {
+    float: left;
+    margin: 10px 10px 0 0;
+    border: 1px solid #7E9F19;
+    padding: 2px;
+}
+
+.clear {
+    clear: both;
 }
 
