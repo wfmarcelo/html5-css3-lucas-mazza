@@ -20,6 +20,11 @@ h1 a:hover {
     width: 960px;
 }
 
+.places {
+    float: left;
+    width: 660px;
+}
+
 .place {
     background-color: #FFF;
     border: 1px solid #CCC;
@@ -47,5 +52,27 @@ h1 a:hover {
 
 .clear {
     clear: both;
+}
+
+.sidenote {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+.sidenote h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.sidenote ol {
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
 }
 
