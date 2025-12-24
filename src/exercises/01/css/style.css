@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 a {
+    color: #333333;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.places {
+    float: left;
+    width: 660px;
+}
+
+.place {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.place h2 {
+    border-bottom: 2px dotted #cccccc;
+    margin: 0;
+}
+
+.place a {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.place a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.place img {
+    float: left;
+    margin: 10px 10px 0 0;
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+.sidenote {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    float: right;
+    width: 260px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.sidenote h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.sidenote ol {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #cccccc;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
