@@ -1,0 +1,26 @@
+.button {
+    border: 1px solid #999;
+    height: 26px;
+    padding: 5px 15px;
+    width: 90px;
+}
+
+/* 
+    Define o box-sizing para todos os elementos
+    regra box-sizing: border-box faz com que o padding
+    seja incluído na largura total do elemento
+*/
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: limegreen;
+    width: 250px;
+}
+
+.box-with-padding {
+    background-color: lightblue;
+    width: 250px;
+    padding: 0 25px;
+}
