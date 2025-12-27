@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+.page-break {
+    display: none;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px dotted #666;
+}
+
+td a {
+    color: #3B5998;
+}
+
+.expense,
+.profit,
+.actions {
+    text-align: right;
+}
+
+.expense,
+.profit {
+    font-weight: bold;
+}
+
+.expense {
+    color: red;
+}
+
+.profit {
+    color: green;
+}
+
+.actions a {
+    font-size: 0.9em;
+    color: white;
+    padding: 2px 5px;
+    background-color: #3B5998;
+    text-decoration: none;
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        border-color: #000 !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    table {
+        width: 100% !important;
+    }
+
+    td {
+        border-color: #000;
+    }
+
+    a {
+        text-decoration: underline !important;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        margin-left: 2px;
+    }
+
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
+
+    article {
+        page-break-after: always;
+    }
+
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
+    p {
+        page-break-inside: avoid;
+    }
+
+    .actions {
+        display: none;
+    }
+
+    .expense::before {
+        content: "- ";
+    }
+
+    .expense::after {
+        content: " - Despesa";
+    }
+
+    .profit::before {
+        content: "+ ";
+    }
+
+    .profit::after {
+        content: " - Receita";
+    }
+}
