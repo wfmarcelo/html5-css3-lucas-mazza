@@ -1,0 +1,63 @@
+ul {
+    height: 35px;
+    list-style: none;
+    padding: 0;
+    width: 210px;
+    background-color: #ccc;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+li {
+    float: left;
+    line-height: 35px;
+    font-size: 0.9em;
+    width: 50px;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+li:first-child {
+    border-left: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+figure {
+    position: absolute;
+}
+
+img {
+    display: block;
+}
+
+figcaption {
+    bottom: 5px;
+    margin: 0 5px;
+    padding: 5px;
+    position: absolute;
+    width: 300px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
