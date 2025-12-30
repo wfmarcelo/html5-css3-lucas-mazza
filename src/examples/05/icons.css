@@ -10,6 +10,7 @@ body {
     font-style: normal;
 }
 
+
 .icon-next::after {
     content: '\2192';
     font-family: 'IconicFill';
