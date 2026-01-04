@@ -1,0 +1,13 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    background-color: limegreen;
+}
+
+span {
+    background-color: lightblue;
+}

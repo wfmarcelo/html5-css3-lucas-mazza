@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="../../lib/css/normalize.css" />
+    <script src="../../lib/js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body>
+      <a id="show-modal" href="javascript:;">Exibir modal</a>
+    <div class="notice">
+      <h1>Atenção</h1>
+      <p>
+        Aqui você pode exibir alguma mensagem importante, que ela irá sobrepor
+        todo o conteúdo do seu site.
+      </p>
+      <a class="close" href="javascript:;">Fechar</a>
+    </div>
+    <div class="overlay"></div>
+
+    <script src="../../lib/js/jquery.min.js"></script>
+    <script>
+        $("#show-modal").on("click", function() {
+            $(".overlay, .notice").show();
+        });
+
+        $(".overlay, .close").on("click", function() {
+            $(".overlay, .notice").hide();
+        });
+    </script>
+  </body>
+</html>
