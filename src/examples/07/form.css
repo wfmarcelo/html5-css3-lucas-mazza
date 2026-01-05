@@ -6,6 +6,10 @@ label {
 }
 
 input, textarea {
+  border: 1px solid #CCC;
+  box-shadow: inset 2px 2px 2px #EEE;
+  font-size: 0.9em;
+  padding: 2px 5px;
   display: inline-block;
   width: 200px;
 }
