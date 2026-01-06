@@ -4,6 +4,7 @@ ul {
 }
 
 li {
+  transition: transform 0.2s linear;
   float: left;
   margin-left: 10px;
   position: relative;
