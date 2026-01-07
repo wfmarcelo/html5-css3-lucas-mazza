@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>flip</title>
+    <link rel="stylesheet" href="../../lib/css/normalize.css" />
+    <script src="../../lib/js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="flip.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <section class="signup">
+          <form action="">
+            <h2>Cadastre-se agora!</h2>
+            <p>
+              <label for="account_email">E-mail</label>
+              <input id="account_email" type="email" name="" />
+            </p>
+            <p>
+              <label for="account_password">Senha</label>
+              <input id="account_password" type="password" name="" />
+            </p>
+            <p>
+              <label for="account_password_confirmation"
+                >Confirme a sua senha</label
+              >
+              <input
+                id="account_password_confirmation"
+                type="password"
+                name=""
+              />
+            </p>
+            <p><button>Enviar</button></p>
+            <a class="toggle" href="javascript:;"
+              >Já estou cadastrado no site</a
+            >
+          </form>
+        </section>
+
+        <section class="signin">
+          <form action="">
+            <h2>Entrar no site</h2>
+            <p>
+              <label for="user_email">E-mail</label>
+              <input id="user_email" type="email" name="" />
+            </p>
+            <p>
+              <label for="user_password">Senha</label>
+              <input id="user_password" type="password" name="" />
+            </p>
+            <p><button>Enviar!</button></p>
+            <a class="toggle" href="javascript:;">Quero me cadastrar</a>
+          </form>
+        </section>
+      </div>
+    </div>
+    <script src="../../lib/js/jquery.min.js"></script>
+    <script>
+      jQuery(function($) {
+        $('section').on('click', 'a', function(){
+          $('.card').toggleClass('flipped');
+        });
+      });
+    </script>
+  </body>
+</html>
